@@ -1,8 +1,7 @@
 import React from 'react'
-// import Hello from './Hello.js'
-//import Example from './Child.js'
-import Chips from './Chips.js'
-//import useStyles from './InputChip.js'
+
+import Chips from './ChipsInput.js'
+
 class App extends React.Component{
     
     render(){
