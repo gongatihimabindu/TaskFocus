@@ -9,7 +9,9 @@ class ChipsTab extends Component {
       chips: []
     }
   }
-  
+  onChangeEvent=e=>{
+	  hello
+  }
 
   onChange = chips => {
     this.setState({ chips });
@@ -18,6 +20,12 @@ class ChipsTab extends Component {
   render() {
     return (
       <div>
+	  hima
+	  bindu
+	  gongati
+	  <button onChange=onChangeEvent.bind(this)> 
+	  submit
+	  </button>
           <h1>Assignment</h1>
           <p>Select an Item</p>
         <Chips
