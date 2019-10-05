@@ -26,7 +26,7 @@ class ChipsTab extends Component {
           placeholder = " Select an item"
           suggestions={["James" , "Josephine","Bindu", " Vishnu","James William", "Robert", "Hawkings","Wilson","Julliet", "Lenna" , "Donette" , "Simona" , "Mitsue" , "Leota" , "Sage Wieser" , "Kris" ]}
           focusInputOnSuggestionClick = {true}
-           
+           console.log("react-chips in ui material")
         
           alwaysRenderSuggestions = {true}
 
