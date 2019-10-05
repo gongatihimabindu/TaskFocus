@@ -13,6 +13,7 @@ class ChipsTab extends Component {
 
   onChange = chips => {
     this.setState({ chips });
+	console.log("chips changing")
   }
 
   render() {
