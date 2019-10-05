@@ -26,23 +26,23 @@ class Question extends Component {
 
     componentDidMount() {
         setTimeout(function () {
-            // axios.get('.|example_2.json')
-            //     .then(res => {
-            //         console.log("bindu", res)
+             axios.get('.|example_2.json')
+                .then(res => {
+                    console.log("bindu", res)
 
-            //         this.setState({
-            //             totalData: res.data
-            //         })
+                    this.setState({
+                        totalData: res.data
+                    })
 
-            //     }
-            //     )
-            //     .catch(error => {
-            //         console.error("error", error)
-            //     })
+                }
+                )
+                .catch(error => {
+                    console.error("error", error)
+                })
 
-                // this.setState({
-                //     totalData : data
-                // })
+                this.setState({
+                    totalData : data
+                })
 
                
             
